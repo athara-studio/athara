@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Athara – Marketing pour les petites entreprises au Maroc</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f1ece4;--surf:#faf7f2;--ink:#141414;--mute:#6b645b;--acc:#141414;--acc2:#141414;--line:#ddd5c8;--onacc:#f1ece4;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161412;--surf:#201c19;--ink:#f3ece1;--mute:#b2a89b;--acc:#e0714b;--acc2:#6fb3ab;--line:#332d28;--onacc:#161412}}
+:root[data-theme="dark"]{--bg:#161412;--surf:#201c19;--ink:#f3ece1;--mute:#b2a89b;--acc:#e0714b;--acc2:#6fb3ab;--line:#332d28;--onacc:#161412}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.6}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+html[lang=fr] .en,html[lang=en] .fr{display:none}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.logo{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:24px;text-decoration:none;letter-spacing:.5px}
+.logo span{color:var(--acc)}
+nav .links{display:flex;gap:20px;align-items:center;font-size:14px}
+nav .links a{text-decoration:none;color:var(--mute)}
+.lang{border:1px solid var(--line);background:var(--surf);color:var(--ink);border-radius:20px;padding:4px 12px;font:600 12px Inter,sans-serif;cursor:pointer}
+.btn{display:inline-block;background:var(--acc);color:var(--onacc);padding:13px 24px;border-radius:30px;text-decoration:none;font-weight:600;font-size:15px}
+.btn.alt{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.hero{padding:72px 0 56px}
+.tag{display:inline-block;font-size:13px;font-weight:600;color:var(--acc2);background:var(--surf);border:1px solid var(--line);padding:5px 14px;border-radius:20px;margin-bottom:20px}
+.hero h1{font-size:clamp(34px,6vw,60px);max-width:16ch}
+.hero h1 em{font-style:italic}
+.hero p{font-size:18px;color:var(--mute);max-width:56ch;margin:20px 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+section{padding:56px 0}
+.k{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);font-weight:600;margin-bottom:10px}
+h2{font-size:clamp(26px,4vw,38px);margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:16px;padding:24px}
+.card h3{font-size:20px;margin-bottom:8px}
+.card p{margin:0;color:var(--mute);font-size:15px}
+.ico{font-size:26px;margin-bottom:10px}
+.steps .n{font-family:Fraunces,Georgia,serif;font-size:34px;color:var(--acc);margin-bottom:6px}
+.band{background:var(--acc2);color:#fff;border-radius:22px;padding:40px 28px;text-align:center}
+.band h2{margin-bottom:12px}.band p{max-width:52ch;margin:0 auto 22px;opacity:.92}
+.band{color:#f1ece4}.band .btn{background:#f1ece4;color:#141414}
+.pk .card.f{border:2px solid var(--acc)}
+.pk ul{margin:12px 0 0;padding-left:18px;color:var(--mute);font-size:14px}
+.pk .p{font-weight:600;color:var(--acc2);margin-bottom:6px;font-size:14px}
+footer{border-top:1px solid var(--line);padding:32px 0;color:var(--mute);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+@media(max-width:640px){nav .links a.hide{display:none}.hero{padding-top:44px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="#top">Athara<span>.</span></a>
+<div class="links">
+<a class="hide" href="#services"><span class="fr">Services</span><span class="en">Services</span></a>
+<a class="hide" href="#methode"><span class="fr">Méthode</span><span class="en">Method</span></a>
+<a class="hide" href="#offres"><span class="fr">Offres</span><span class="en">Plans</span></a>
+<button class="lang" id="lang" aria-label="Language">EN</button>
+<a class="btn" href="#contact" style="padding:8px 18px;font-size:14px">Contact</a>
+</div></nav></div></header>
+
+<main id="top">
+<div class="wrap hero">
+<span class="tag"><span class="fr">Agence marketing · Maroc</span><span class="en">Marketing agency · Morocco</span></span>
+<h1><span class="fr">Un marketing <em>clair</em> et mesurable pour votre petite entreprise.</span><span class="en">Clear, <em>measurable</em> marketing for your small business.</span></h1>
+<p><span class="fr">Athara aide les petites entreprises marocaines à se faire connaître, attirer des clients et comprendre exactement ce que rapporte chaque dirham investi.</span><span class="en">Athara helps Moroccan small businesses get noticed, win customers and see exactly what every dirham spent brings back.</span></p>
+<div class="cta">
+<a class="btn" href="#contact"><span class="fr">Audit gratuit</span><span class="en">Get a free audit</span></a>
+<a class="btn alt" href="#services"><span class="fr">Voir nos services</span><span class="en">See our services</span></a>
+</div></div>
+
+<section id="services"><div class="wrap">
+<div class="k">Services</div>
+<h2><span class="fr">Tout ce qu’il faut pour grandir, au même endroit</span><span class="en">Everything you need to grow, in one place</span></h2>
+<div class="grid">
+<div class="card"><div class="ico">📱</div><h3><span class="fr">Réseaux sociaux</span><span class="en">Social media</span></h3><p><span class="fr">Gestion de vos pages, calendrier de contenu et campagnes sur Instagram, Facebook, TikTok et LinkedIn.</span><span class="en">Page management, content calendar and campaigns on Instagram, Facebook, TikTok and LinkedIn.</span></p></div>
+<div class="card"><div class="ico">🎯</div><h3><span class="fr">Campagnes publicitaires</span><span class="en">Ad campaigns</span></h3><p><span class="fr">Budget défini, ciblage précis et suivi du CPM, du coût par clic et du coût par client.</span><span class="en">Defined budget, precise targeting and tracking of CPM, cost per click and cost per customer.</span></p></div>
+<div class="card"><div class="ico">✍️</div><h3><span class="fr">Blog et newsletter</span><span class="en">Blog &amp; newsletter</span></h3><p><span class="fr">Des contenus utiles qui installent votre expertise et gardent le contact avec vos clients.</span><span class="en">Useful content that builds your expertise and keeps you in touch with your customers.</span></p></div>
+<div class="card"><div class="ico">🔍</div><h3><span class="fr">Analyse de marché</span><span class="en">Market analysis</span></h3><p><span class="fr">Concurrents, clients types (personas) et opportunités de votre secteur, avant de dépenser.</span><span class="en">Competitors, customer personas and opportunities in your sector, before you spend.</span></p></div>
+<div class="card"><div class="ico">🗂️</div><h3><span class="fr">CRM et suivi clients</span><span class="en">CRM &amp; customer tracking</span></h3><p><span class="fr">Un système simple pour ne perdre aucun contact et relancer au bon moment.</span><span class="en">A simple system so you never lose a contact and follow up at the right time.</span></p></div>
+<div class="card"><div class="ico">📊</div><h3><span class="fr">Rapports et KPI</span><span class="en">Reports &amp; KPIs</span></h3><p><span class="fr">Un rapport mensuel clair : ce qui marche, ce qui ne marche pas, et la suite.</span><span class="en">A clear monthly report: what works, what doesn’t, and what’s next.</span></p></div>
+</div></div></section>
+
+<section id="methode"><div class="wrap steps">
+<div class="k"><span class="fr">Notre méthode</span><span class="en">Our method</span></div>
+<h2><span class="fr">Simple, transparent, mesuré</span><span class="en">Simple, transparent, measured</span></h2>
+<div class="grid">
+<div class="card"><div class="n">01</div><h3><span class="fr">Comprendre</span><span class="en">Understand</span></h3><p><span class="fr">Audit gratuit de votre présence en ligne, de vos clients et de vos concurrents.</span><span class="en">Free audit of your online presence, customers and competitors.</span></p></div>
+<div class="card"><div class="n">02</div><h3><span class="fr">Planifier</span><span class="en">Plan</span></h3><p><span class="fr">Objectifs, budget et plan d’action clairs, adaptés à votre taille.</span><span class="en">Clear goals, budget and action plan that fit your size.</span></p></div>
+<div class="card"><div class="n">03</div><h3><span class="fr">Agir</span><span class="en">Act</span></h3><p><span class="fr">Contenus, campagnes et newsletters publiés selon le calendrier.</span><span class="en">Content, campaigns and newsletters published on schedule.</span></p></div>
+<div class="card"><div class="n">04</div><h3><span class="fr">Mesurer</span><span class="en">Measure</span></h3><p><span class="fr">Rapport mensuel et ajustements pour améliorer les résultats.</span><span class="en">Monthly report and adjustments to improve results.</span></p></div>
+</div></div></section>
+
+<section id="offres"><div class="wrap pk">
+<div class="k"><span class="fr">Offres</span><span class="en">Plans</span></div>
+<h2><span class="fr">Choisissez le niveau qui vous convient</span><span class="en">Choose the level that suits you</span></h2>
+<div class="grid">
+<div class="card"><h3>Start</h3><div class="p"><span class="fr">Sur devis</span><span class="en">Custom quote</span></div><p><span class="fr">Pour démarrer proprement.</span><span class="en">To get started properly.</span></p><ul><li><span class="fr">Audit et analyse de marché</span><span class="en">Audit and market analysis</span></li><li><span class="fr">Personas et plan d’action</span><span class="en">Personas and action plan</span></li><li><span class="fr">Budget marketing</span><span class="en">Marketing budget</span></li></ul></div>
+<div class="card f"><h3>Growth</h3><div class="p"><span class="fr">Sur devis · le plus choisi</span><span class="en">Custom quote · most popular</span></div><p><span class="fr">Pour être visible chaque semaine.</span><span class="en">To be visible every week.</span></p><ul><li><span class="fr">Tout Start</span><span class="en">Everything in Start</span></li><li><span class="fr">Gestion des réseaux sociaux</span><span class="en">Social media management</span></li><li><span class="fr">Campagnes publicitaires</span><span class="en">Ad campaigns</span></li><li><span class="fr">Rapport mensuel</span><span class="en">Monthly report</span></li></ul></div>
+<div class="card"><h3>Scale</h3><div class="p"><span class="fr">Sur devis</span><span class="en">Custom quote</span></div><p><span class="fr">Pour structurer et accélérer.</span><span class="en">To structure and accelerate.</span></p><ul><li><span class="fr">Tout Growth</span><span class="en">Everything in Growth</span></li><li><span class="fr">Blog et newsletter</span><span class="en">Blog and newsletter</span></li><li><span class="fr">CRM et suivi des KPI</span><span class="en">CRM and KPI tracking</span></li></ul></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><div class="band">
+<h2><span class="fr">Recevez votre audit marketing gratuit</span><span class="en">Get your free marketing audit</span></h2>
+<p><span class="fr">Dites-nous quelques mots sur votre activité. Nous vous répondons avec les trois actions les plus utiles pour votre entreprise.</span><span class="en">Tell us a little about your business. We’ll reply with the three most useful actions for your company.</span></p>
+<a class="btn" id="wa" href="https://wa.me/212600000000" rel="noopener">WhatsApp</a>
+<a class="btn" href="mailto:Chez.Athara@proton.me" style="margin-left:8px">Email</a>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">
+<div><strong style="font-family:Fraunces,Georgia,serif">Athara.</strong> <span class="fr">Studio de marketing pour petites entreprises au Maroc.</span><span class="en">Marketing agency for small businesses in Morocco.</span></div>
+<div>© 2026 Athara · Instagram · LinkedIn</div>
+</div></footer>
+
+<script>
+(function(){
+var h=document.documentElement,b=document.getElementById('lang'),l='fr';
+try{l=localStorage.getItem('athara-lang')||'fr'}catch(e){}
+function set(x){l=x;h.lang=x;b.textContent=x==='fr'?'EN':'FR';try{localStorage.setItem('athara-lang',x)}catch(e){}}
+set(l);
+b.addEventListener('click',function(){set(l==='fr'?'en':'fr')});
+})();
+</script>
+</body>
+</html>
